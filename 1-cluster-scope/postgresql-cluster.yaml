@@ -20,7 +20,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     path: ''
-    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/index.yaml
+    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm
     targetRevision: 5.40.0+20260511.045256.258
     chart: postgresql-cluster-scoped
     helm:

@@ -13,7 +13,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     path: ''
-    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/index.yaml
+    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm
     targetRevision: 12.1.0+20260206.151111.23
     chart: ws-runtimes-cluster-scoped
     helm:

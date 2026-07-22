@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: non-olm-cp4d
-  namespace: openshift-gitops
+  namespace: oc 
 spec:
   project: default
   source:

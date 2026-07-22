@@ -26,6 +26,6 @@ spec:
           operatorNamespace: gitops-operator
           releaseVersion: 5.3.1
     path: ''
-    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/index.yaml
+    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm
     targetRevision: 2.2.0+20250905.144313
     

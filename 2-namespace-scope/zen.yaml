@@ -19,7 +19,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     path: ''
-    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/index.yaml
+    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm
     targetRevision: 6.10.1+20260609.224006.17
     chart: zen
     helm:

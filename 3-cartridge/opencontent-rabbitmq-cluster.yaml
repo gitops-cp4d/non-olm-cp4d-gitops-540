@@ -13,7 +13,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     path: ''
-    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/index.yaml
+    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm
     targetRevision: 1.3.0+20250909.172851
     chart: opencontent-rabbitmq-cluster-scoped
     helm:

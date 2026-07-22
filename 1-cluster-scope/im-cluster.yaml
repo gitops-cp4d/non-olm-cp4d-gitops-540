@@ -12,7 +12,7 @@ spec:
     namespace: default
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/index.yaml
+    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm
     targetRevision: 4.18.0+20260527.142210.0
     chart: ibm-iam-operator-cluster-scoped
     helm:
