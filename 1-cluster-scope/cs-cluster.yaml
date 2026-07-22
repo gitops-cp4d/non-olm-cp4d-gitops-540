@@ -12,7 +12,7 @@ spec:
     namespace: default
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-531/repos
+    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/index.yaml
     chart: ibm-common-service-operator-cluster-scoped
     targetRevision: 4.19.1+20260612.165329.0
     helm:

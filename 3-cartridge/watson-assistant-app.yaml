@@ -28,5 +28,5 @@ spec:
         watsonAssistant:
           deployCR: false    
     path: ''
-    repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-531/repos
+    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/index.yaml
     targetRevision: 5.11.0+20260217.202310.2918

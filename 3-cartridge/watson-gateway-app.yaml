@@ -26,5 +26,5 @@ spec:
           operatorNamespace: gitops-operator
           releaseVersion: 5.3.1
     path: ''
-    repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-531/repos
+    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/index.yaml
     targetRevision: 2.2.0+20250905.144313

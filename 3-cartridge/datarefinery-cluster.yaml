@@ -13,7 +13,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     path: ''
-    repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-531/repos
+    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/index.yaml
     targetRevision: 12.1.0+20260205.205211.211
     chart: datarefinery-cluster-scoped
     helm:

@@ -13,7 +13,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     path: ''
-    repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-531/repos
+    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/index.yaml
     targetRevision: 4.2.23+20260526.132631.0
     chart: ibm-licensing-cluster-scoped
     helm:

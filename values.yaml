@@ -11,7 +11,7 @@ global:
   imagePullPrefix: icr.io
   imagePullSecret: ibm-entitlement-key
   argocdNS: openshift-gitops
-  helmRepoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-531/repos
+  helmRepoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/index.yaml
   installConfigImageDigest: "sha256:3f03ae78e4101a63c089980ffb5eef0db51b8897afd44b609ce409897e5f0827"
 
   cpd-platform-cluster:
