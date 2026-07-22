@@ -14,7 +14,7 @@ spec:
   source:
     path: ''
     repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-531/repos
-    targetRevision: 4.2.20+20260210.110820.0
+    targetRevision: 4.2.23+20260526.132631.0
     chart: ibm-licensing-cluster-scoped
     helm:
       valuesObject:

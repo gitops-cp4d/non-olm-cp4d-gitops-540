@@ -21,7 +21,7 @@ spec:
   source:
     path: ''
     repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-531/repos
-    targetRevision: 5.31.0+20260129.153527.226
+    targetRevision: 5.40.0+20260511.045256.258
     chart: postgresql-cluster-scoped
     helm:
       valuesObject:

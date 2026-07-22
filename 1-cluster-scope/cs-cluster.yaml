@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-531/repos
     chart: ibm-common-service-operator-cluster-scoped
-    targetRevision: 4.17.0+20260211.152150.0
+    targetRevision: 4.19.1+20260612.165329.0
     helm:
       valuesObject:
         global:

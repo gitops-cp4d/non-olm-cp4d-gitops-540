@@ -13,7 +13,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-531/repos
-    targetRevision: 4.16.0+20260210.110820.0
+    targetRevision: 4.18.0+20260527.142210.0
     chart: ibm-iam-operator-cluster-scoped
     helm:
       valuesObject:

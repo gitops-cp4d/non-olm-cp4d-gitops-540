@@ -14,7 +14,7 @@ spec:
   source:
     path: ''
     repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-531/repos
-    targetRevision: 6.4.0+20260210.170932.92
+    targetRevision: 6.10.1+20260609.224006.17
     chart: zen-cluster-scoped
     helm:
       valuesObject:

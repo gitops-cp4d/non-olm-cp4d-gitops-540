@@ -12,7 +12,7 @@ global:
   imagePullSecret: ibm-entitlement-key
   argocdNS: openshift-gitops
   helmRepoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-531/repos
-  installConfigImageDigest: "sha256:1ab24a2e3a2c52fd6f0f2a2a5faf11459f1196b9d29b2034488718a6a605094b"
+  installConfigImageDigest: "sha256:3f03ae78e4101a63c089980ffb5eef0db51b8897afd44b609ce409897e5f0827"
 
   cpd-platform-cluster:
     chart: cpd-platform-cluster-scoped
@@ -142,4 +142,4 @@ global:
     version: 10.0.0+20251125.115349.912112433
 
 ## "Repository": "cp.icr.io/cp/cpd/olm-utils-premium-v4"
-## sha256:1ab24a2e3a2c52fd6f0f2a2a5faf11459f1196b9d29b2034488718a6a605094b
+## sha256:3f03ae78e4101a63c089980ffb5eef0db51b8897afd44b609ce409897e5f0827

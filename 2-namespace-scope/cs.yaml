@@ -14,20 +14,20 @@ spec:
   source:
     path: ''
     repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-531/repos
-    targetRevision: 4.17.0+20260211.152150.0
+    targetRevision: 4.19.1+20260612.165329.0
     chart: ibm-common-service-operator
     helm:
       valuesObject:
         global:
           licenseAccept: true
-          releaseVersion: 5.3.1
+          releaseVersion: 5.4,0
           operatorNamespace: gitops-operator
           instanceNamespace: gitops-instance
           blockStorageClass: ocs-external-storagecluster-ceph-rbd
           fileStorageClass: ocs-external-storagecluster-cephfs
           imagePullPrefix: icr.io
           imagePullSecret: ibm-entitlement-key
-          scaleConfig: "small"
+          scaleConfig: small
   project: default
   syncPolicy:
     automated:
