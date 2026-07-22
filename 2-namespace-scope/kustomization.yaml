@@ -7,4 +7,4 @@ resources:
   - zen.yaml
   # - rh-cm.yaml
   - post-installation.yaml
-  - olm.yaml
+  # - olm.yaml
