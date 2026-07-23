@@ -14,7 +14,7 @@ spec:
   source:
     path: ''
     repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm
-    targetRevision: 5.10.0+20260526.162139.68
+    targetRevision: 5.10.3+20260706.110612.12
     chart: cpd-platform
     helm:
       valuesObject:

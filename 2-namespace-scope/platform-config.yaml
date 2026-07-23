@@ -14,16 +14,16 @@ spec:
   source:
     path: ''
     repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm
-    targetRevision: 5.4.0+20260210.092002.50
+    targetRevision: 5.10.3+20260706.110612.12
     chart: platform-config
     helm:
       valuesObject:
         global:
           blockStorageClass: ocs-external-storagecluster-ceph-rbd
           components:
-          - cpd_platform
-          - watsonx_ai
-          - watsonx_orchestrate
+            - cpd_platform
+            - watsonx_ai
+            - watsonx_orchestrate
           fileStorageClass: ocs-external-storagecluster-cephfs
           installConfigImageDigest: sha256:3f03ae78e4101a63c089980ffb5eef0db51b8897afd44b609ce409897e5f0827
           installConfigImageName: cpopen/cpd/olm-utils-v4

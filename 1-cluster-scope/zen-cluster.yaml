@@ -14,7 +14,7 @@ spec:
   source:
     path: ''
     repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm
-    targetRevision: 6.10.1+20260609.224006.17
+    targetRevision: 6.10.3+20260713.120632.33
     chart: zen-cluster-scoped
     helm:
       valuesObject:
