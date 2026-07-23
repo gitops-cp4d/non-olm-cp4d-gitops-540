@@ -1,0 +1,36 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: ibm-pg-cluster-gitops
+  namespace: openshift-gitops
+  labels:
+    scope: cluster
+    product: software-hub
+spec:
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+  destination:
+    name: ''
+    namespace: default
+    server: https://kubernetes.default.svc
+  source:
+    path: ''
+    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm
+    targetRevision: 28.4.0+20260709.173920.543
+    chart: ibm-pg-operator-cluster-scoped
+    helm:
+      valuesObject:
+        global:
+          operatorNamespace: gitops-operator
+        ## patching when ccs is enabled
+        # webhook:
+        #   mutating:
+        #     create: false
+        #   validating:
+        #     create: false
+  project: default

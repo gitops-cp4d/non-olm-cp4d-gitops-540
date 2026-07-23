@@ -1,0 +1,41 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: ibm-pg-gitops
+  namespace: openshift-gitops
+  labels:
+    scope: namespace
+    product: software-hub
+spec:
+  destination:
+    name: ''
+    namespace: default
+    server: https://kubernetes.default.svc
+  source:
+    path: ''
+    repoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm
+    targetRevision: 28.4.0+20260709.173920.543
+    chart: ibm-pg-operator
+    helm:
+      valuesObject:
+        global:
+          licenseAccept: true
+          operatorNamespace: gitops-operator
+          instanceNamespace: gitops-instance
+          blockStorageClass: ocs-external-storagecluster-ceph-rbd
+          fileStorageClass: ocs-external-storagecluster-cephfs
+          # imagePullPrefix: icr.io
+          imagePullSecret: ibm-entitlement-key
+          installConfigImageDigest: sha256:3f03ae78e4101a63c089980ffb5eef0db51b8897afd44b609ce409897e5f0827
+          installConfigImageName: cpopen/cpd/olm-utils-v4
+          installConfigImagePullPrefix: cp.icr.io
+        postgresql:
+          entitledImagePullPrefix: cp.icr.io
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
