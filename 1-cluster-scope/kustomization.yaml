@@ -6,3 +6,4 @@ resources:
   - postgresql-cluster.yaml
   - zen-cluster.yaml
   # - rh-cm-cluster.yaml
+  - ibm-pg-cluster.yaml

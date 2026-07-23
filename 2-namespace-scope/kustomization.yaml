@@ -8,3 +8,4 @@ resources:
   # - rh-cm.yaml
   - post-installation.yaml
   # - olm.yaml
+  - ibm-pg.yaml
