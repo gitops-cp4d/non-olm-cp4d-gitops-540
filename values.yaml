@@ -141,5 +141,5 @@ global:
     chart: openpages-cluster-scoped
     version: 10.0.0+20251125.115349.912112433
 
-## "Repository": "cp.icr.io/cp/cpd/olm-utils-premium-v4"
+## "Repository": "cp.icr.io/cpopen/cpd/olm-utils-v4"
 ## sha256:3f03ae78e4101a63c089980ffb5eef0db51b8897afd44b609ce409897e5f0827
