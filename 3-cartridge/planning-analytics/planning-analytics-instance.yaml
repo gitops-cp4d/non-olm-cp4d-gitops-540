@@ -28,7 +28,7 @@ spec:
           fileStorageClass: ocs-external-storagecluster-cephfs
           imagePullPrefix: cp.icr.io
           imagePullSecret: ibm-entitlement-key
-          installConfigImageDigest: sha256:3f03ae78e4101a63c089980ffb5eef0db51b8897afd44b609ce409897e5f0827
+          installConfigImageDigest: sha256:4f6f08222f49b94ab2c5dc085dbf7ecc32ef77c01a7715568b50dfc1443cdadf
           installConfigImageName: cpopen/cpd/olm-utils-v4
           installConfigImagePullPrefix: cp.icr.io
   project: default

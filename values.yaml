@@ -12,7 +12,7 @@ global:
   imagePullSecret: ibm-entitlement-key
   argocdNS: openshift-gitops
   helmRepoURL: https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm
-  installConfigImageDigest: "sha256:3f03ae78e4101a63c089980ffb5eef0db51b8897afd44b609ce409897e5f0827"
+  installConfigImageDigest: "sha256:4f6f08222f49b94ab2c5dc085dbf7ecc32ef77c01a7715568b50dfc1443cdadf"
 
   cpd-platform-cluster:
     chart: cpd-platform-cluster-scoped
@@ -142,4 +142,4 @@ global:
     version: 10.0.0+20251125.115349.912112433
 
 ## "Repository": "cp.icr.io/cpopen/cpd/olm-utils-v4"
-## sha256:3f03ae78e4101a63c089980ffb5eef0db51b8897afd44b609ce409897e5f0827
+## sha256:4f6f08222f49b94ab2c5dc085dbf7ecc32ef77c01a7715568b50dfc1443cdadf
